@@ -381,7 +381,11 @@ export default function Home(): JSX.Element {
 
             </ Container >
 
-            <Box marginTop="40" backgroundColor={"gray.900"} opacity={0.9}>
+            <Box
+                marginTop="40"
+                backgroundColor={"gray.900"}
+                opacity={0.9}
+                _light={{ backgroundColor: "gray.50" }}>
                 <Container paddingY={"40px"} maxW="80%">
                     <Heading
                         size="lg"
