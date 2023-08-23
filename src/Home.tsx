@@ -266,7 +266,7 @@ export default function Home(): JSX.Element {
                     Work Experience
                 </Heading>
 
-                <Flex alignContent={"space-around"} justifyContent={"space-around"} paddingTop={"60px"}>
+                <Flex alignContent={"space-around"} justifyContent={"space-around"} paddingTop={"60px"} flexDir={{ base: 'column', lg: 'row' }}>
                     <Box display={"flex"} flexDir={"column"} textAlign={"center"} alignItems={"center"}>
                         <Image
                             borderRadius='full'
