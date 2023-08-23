@@ -52,6 +52,7 @@ export default function Home(): JSX.Element {
                             size="md"
                             paddingX="2"
                             as={Link}
+                            href="/"
                             _hover={{ textDecoration: "None", opacity: 0.8, transition: "400ms" }}>
                             Febryanstefanus
                         </Heading>
